@@ -18,12 +18,17 @@ export function AppSidebar() {
   const items = [
     {
       title: `Home`,
-      url: "#",
+      url: "/",
       icon: Home,
     },
     {
-      title: `Amout`,
-      url: "#",
+      title: `Transcript`,
+      url: "/transcript",
+      icon: User,
+    },
+    {
+      title: `Thumbnail`,
+      url: "/thumbnail",
       icon: User,
     }
   ]
